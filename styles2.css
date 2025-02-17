@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  display: flexbox;
+}
+
+.container {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 211, 235, 0.0313375350140056) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+
+  align-items: center;
+}
+.header {
+  background-color: #4c4a4a;
+  height: 10%;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 20px;
+}
+
+.main {
+  height: 90vh;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.mylinks {
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(0, 6, 11);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro {
+  background-color: rgb(246, 239, 246);
+  font-size: 18px;
+
+  height: max-content;
+
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px 10px;
+}
+.myphoto {
+  border-radius: 300px;
+  margin: 10px 10px;
+  /* height: 40vh;
+  width: 40vw; */
+  height: 200px;      
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  display: flex; 
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+
+  margin-left: 40px;
+  margin-right: 40px;
+  justify-items: center;
+  font-size: 18px;
+
+  text-align: center;
+  border-radius: 10px;
+
+  padding: 5px;
+}
+.skill1 {
+  background-color: rgb(246, 246, 248);
+  align-content: stretch;
+  border-radius: 10px;
+}
+.skill2 {
+  background-color: rgb(245, 243, 244);
+  align-content: stretch;
+  border-radius: 10px;
+}
+
+.skill3 {
+  background-color: rgb(249, 249, 252);
+  align-content: stretch;
+  border-radius: 10px;
+}
+.footer {
+  background: black;
+  color: white;
+  height: 10%;
+}
+.nav {
+  display: block;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: rgb(249, 247, 247);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+a:hover {
+  background-color: rgb(76, 12, 226);
+  color: white;
+  border-radius: 20px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+
+  border-radius: 20px;
+}
+
+.subhead {
+  color: blue;
+  font-weight: 750;
+  font-size: 20px;
+  margin: 5px;
+}
+.footer {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  height: 5%;
+}
+
+.footer > a {
+  text-decoration: none;
+  color: rgb(247, 239, 239);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* styles for Techprofile page*/
+
+.techcontainer {
+  height: 100vh;
+
+  background-color: #eeedeb;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.techheading {
+  height: 10%;
+  background-color: rgb(17, 17, 18);
+  color: white;
+  display: block;
+  text-align: center;
+
+  justify-items: center;
+  align-content: center;
+}
+.techmain {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 80%;
+  background-color: rgb(247, 243, 244);
+
+  margin-left: 30px;
+  margin-right: 30px;
+  justify-items: center;
+  /* align-items: center; */
+  padding: 20px;
+}
+
+.tech1 {
+  background-color: rgb(247, 243, 244);
+  border-radius: 20px;
+  margin: 10px 10px;
+  padding: 10px;
+}
+.tech2 {
+  background-color: rgb(247, 243, 244);
+  border-radius: 20px;
+  margin: 10px 10px;
+  padding: 10px;
+}
+.tech3 {
+  background-color: rgb(247, 243, 244);
+  border-radius: 20px;
+  margin: 10px 10px;
+  padding: 10px;
+}
+.tech4 {
+  background-color: rgb(247, 243, 244);
+  border-radius: 20px;
+  margin: 10px 10px;
+  padding: 10px;
+  width: auto; 
+}
+
+.techfooter {
+  background-color: rgb(9, 9, 9);
+  height: 10%;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.next {
+  display: block;
+  text-align: end;
+}
+/*---------Services ----------*/
+
+.servcontainer {
+  height: 100vh;
+
+  background-color: #eeedeb;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.serv1 {
+  height: 20%;
+  background-color: rgb(130, 206, 71);
+  margin: 10px 10px;
+  border-radius: 20px;
+}
+.serv2 {
+  height: 20%;
+  background-color: rgb(122, 233, 124);
+  margin: 10px 10px;
+  border-radius: 20px;
+}
+.serv3 {
+  height: 20%;
+  background-color: rgb(181, 219, 93);
+  margin: 10px 10px;
+  border-radius: 20px;
+}
+.serv4 {
+  height: 20%;
+  background-color: rgb(52, 203, 14);
+  margin: 10px 10px;
+  border-radius: 20px;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anuraag Deepak - Resume</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="stylesAI.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Anuraag Deepak</h1>
+            <p>Computer Science Student | Texas A&M University | Richmond, TX</p>
+            <p><i class="fas fa-phone"></i> 832 759 4563 | <i class="fas fa-envelope"></i> <a href="mailto:danuraag2014@gmail.com">danuraag2014@gmail.com</a></p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I am a highly motivated Computer Science student at Texas A&M University, with a passion for developing innovative software solutions. Seeking a summer internship to gain practical experience, I am continuously exploring cutting-edge technologies and honing my skills.</p>
+            </div>
+        </section>
+
+        <section id="education" class="section light-bg">
+            <div class="container">
+                <h2>Education</h2>
+                <h3>Texas A&M University</h3>
+                <p>Bachelor of Science in Computer Science <br> Anticipated Graduation: May 2026 <br> GPA: 3.7/4.0</p>
+
+                <h4>Relevant Coursework:</h4>
+                <ul class="columns">
+                    <li>Intro to Computing</li>
+                    <li>Program Design and Concepts (C++)</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Computer Organization</li>
+                    <li>Programming Languages (Java)</li>
+                    <li>Foundations of Software Engineering</li>
+                    <li>Law and Policy Cyber Security</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="experience" class="section">
+            <div class="container">
+                <h2>Experience</h2>
+
+                <div class="experience-item">
+                    <h3>R&D Intern at Arkisys Aerospace Company, CA</h3>
+                    <p><em>June 2023 - August 2023</em></p>
+                    <ul>
+                        <li>Worked on satellite integration, handling mechanical and thermal aspects.</li>
+                        <li>Managed overheating challenges for satellite technology.</li>
+                        <li>Demonstrated strong multitasking and customer responsiveness.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <h3>Human Resource Administrator at City of Missouri City, TX</h3>
+                    <p><em>July 2023 - August 2023</em></p>
+                    <ul>
+                        <li>Managed employee records and collaborated on onboarding processes.</li>
+                        <li>Created orientation programs and training materials.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section light-bg">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                    <li>HTML & CSS</li>
+                    <li>Cluster Computing</li>
+                    <li>Data Structures</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+          <div class="previous"><a href="services.html">Previous</a></div>
+            <h2>Contact</h2>
+            <p>LinkedIn: <a href="#">linkedin.com/in/anuraagdeepak</a></p>
+            <p>GitHub: <a href="#">github.com/anuraagdeepak</a></p>
+            <p>&copy; 2024 Anuraag Deepak</p>
+        </div>
+    </footer>
+
+    <!-- Smooth Scrolling JS -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
