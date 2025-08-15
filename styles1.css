@@ -162,7 +162,7 @@ img {
 
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 10px;
+  gap: 2px;
   margin-left: 30px;
   margin-right: 30px;
   justify-items: center;
@@ -177,27 +177,32 @@ img {
   background-color: rgb(247, 243, 244);
   border-radius: 20px;
   margin: 10px 10px;
-  padding: 10px;
+  padding: 5px;
 }
 .tech2 {
   background-color: rgb(247, 243, 244);
   border-radius: 20px;
   margin: 10px 10px;
-  padding: 10px;
+  padding: 5px;
 }
 .tech3 {
   background-color: rgb(247, 243, 244);
   border-radius: 20px;
   margin: 10px 10px;
-  padding: 10px;
+  padding: 5px;
 }
 .tech4 {
   background-color: rgb(247, 243, 244);
   border-radius: 20px;
   margin: 10px 10px;
-  padding: 10px;
+  padding: 5px;
 }
-
+.tech5 {
+  background-color: rgb(247, 243, 244);
+  border-radius: 20px;
+  margin: 10px 10px;
+  padding: 5px;
+}
 .techfooter {
   background-color: rgb(9, 9, 9);
   height: 10%;
