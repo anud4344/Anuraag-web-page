@@ -43,7 +43,7 @@
 
 .intro {
   background-color: rgb(246, 239, 246);
-  font-size: 18px;
+  font-size: 15px;
 
   height: max-content;
 
@@ -52,6 +52,7 @@
   margin: 10px 10px;
 }
 .myphoto {
+  margin-top:10px;
   border-radius: 300px;
   margin: 10px 10px;
   /* height: 40vh;
@@ -59,7 +60,7 @@
   height: 200px;      
   width: 200px;
   position: absolute;
-  top: 50%;
+  top: 53%;
   left: 50%;
   transform: translate(-50%, 50%);
   display: flex; 
@@ -169,7 +170,8 @@ img {
 .techmain {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  height: 80%;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  height: 85%;
   background-color: rgb(247, 243, 244);
 
   margin-left: 30px;
@@ -177,6 +179,14 @@ img {
   justify-items: center;
   /* align-items: center; */
   padding: 20px;
+}
+.project-title {
+  font-weight: bold;
+  font-size: 1.2em; 
+}
+.bullet {
+  font-weight: bold;
+  margin-right: 5px;
 }
 
 .tech1 {
@@ -205,6 +215,34 @@ img {
   width: auto; 
 }
 .tech5 {
+  background-color: rgb(247, 243, 244);
+  border-radius: 20px;
+  margin: 10px 10px;
+  padding: 10px;
+  width: auto; 
+}
+.tech6 {
+  background-color: rgb(247, 243, 244);
+  border-radius: 20px;
+  margin: 10px 10px;
+  padding: 10px;
+  width: auto; 
+}
+.tech7 {
+  background-color: rgb(247, 243, 244);
+  border-radius: 20px;
+  margin: 10px 10px;
+  padding: 10px;
+  width: auto; 
+}
+.tech8 {
+  background-color: rgb(247, 243, 244);
+  border-radius: 20px;
+  margin: 10px 10px;
+  padding: 10px;
+  width: auto; 
+}
+.tech9 {
   background-color: rgb(247, 243, 244);
   border-radius: 20px;
   margin: 10px 10px;
